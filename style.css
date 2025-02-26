@@ -1,0 +1,51 @@
+html {
+    font-family: calibri;
+    background-color: rgb(178, 196, 255);
+}
+
+#setter {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+main {
+    width: 1200px;
+    height: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 100px 170px;
+    background-color: rgb(153, 212, 255);
+}
+
+#mainbtn {
+    position: relative;
+    top: 47%;
+    left: 45%;
+    width: 40px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(235, 255, 153);
+}
+
+.settings {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px; /*forme      here */
+    height: 200px;
+}
+
+input {
+    padding: 2px 0 2px 7px;
+    border: 1px solid black;
+    border-radius: 7px;
+    outline: none;
+}
